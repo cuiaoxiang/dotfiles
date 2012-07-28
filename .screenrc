@@ -1,0 +1,12 @@
+startup_message off
+vbell off
+defescape ^Xx
+escape ^Xx
+
+caption always "%?%F%{-b 4w}%:%{-b bb}%? %H | %l | %m-%d %c |%?%F%{-b 4w}%?%L=%-Lw%45>%{-b w4}%n%f* %t%{-}%+Lw%-0<"
+
+# define a bigger scrollback, default is 100 lines
+defscrollback 2048
+
+bind l lockscreen
+
