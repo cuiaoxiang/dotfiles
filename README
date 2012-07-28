@@ -2,7 +2,7 @@ Configuration files I used in Ubuntu 10.04.
 
 Content:
   .emacs
-  .conky
-  .vim
-  .screen
+  .conkyrc
+  .vimrc
+  .screenrc
 
