@@ -214,6 +214,7 @@
 (put 'dired-find-alternate-file 'disabled nil)
 (put 'narrow-to-page 'disabled nil)
 
+(setq make-backup-files nil)
 ;; (setq version-control t)
 ;; (setq kept-old-versions 1)
 ;; (setq kept-new-versions 2)
