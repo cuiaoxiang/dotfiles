@@ -214,12 +214,12 @@
 (put 'dired-find-alternate-file 'disabled nil)
 (put 'narrow-to-page 'disabled nil)
 
-(setq version-control t)
-(setq kept-old-versions 1)
-(setq kept-new-versions 2)
-(setq delete-old-versions t)
-(setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
-(setq delete-auto-save-files t)
+;; (setq version-control t)
+;; (setq kept-old-versions 1)
+;; (setq kept-new-versions 2)
+;; (setq delete-old-versions t)
+;; (setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
+;; (setq delete-auto-save-files t)
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
@@ -457,12 +457,12 @@ stored with ska-point-to-register."
   (indent-according-to-mode)
   (newline-and-indent))
 
-(require 'sgml-mode)
-(define-key sgml-mode-map (kbd "RET") 'web-newline-and-indent)
-(require 'css-mode)
-(define-key css-mode-map (kbd "RET") 'web-newline-and-indent)
-(require 'php-mode)
-(define-key php-mode-map (kbd "RET") 'web-newline-and-indent)
+;; (require 'sgml-mode)
+;; (define-key sgml-mode-map (kbd "RET") 'web-newline-and-indent)
+;; (require 'css-mode)
+;; (define-key css-mode-map (kbd "RET") 'web-newline-and-indent)
+;; (require 'php-mode)
+;; (define-key php-mode-map (kbd "RET") 'web-newline-and-indent)
 
 (mapcar
  (function (lambda (setting)
