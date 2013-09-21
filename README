@@ -1,10 +1,9 @@
 Configuration files I used in Ubuntu 10.04.
 
-Add a new line.
-
 Content:
   .emacs
   .conkyrc
   .vimrc
   .screenrc
+  .gitconfig
 
